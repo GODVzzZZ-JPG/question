@@ -1,4 +1,4 @@
-const CACHE = 'ai-quiz-202611121113';
+const CACHE = 'ai-quiz-202611121432';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
