@@ -1,0 +1,12 @@
+部署说明（只需做一次）
+=====================
+1. 把本文件夹里的 5 个文件整体上传到任意支持 https 的静态空间：
+   index.html、sw.js、manifest.webmanifest、icon-180.png、icon-512.png
+   （注意保持在同一层目录，不要只传 index.html）
+2. 用 iPhone Safari 打开该空间的网址，等页面加载完 3 秒。
+3. 点底部「分享」→「添加到主屏幕」。
+4. 打开桌面图标确认能刷题；之后即使原网站打不开、手机断网，也能从缓存里继续刷题。
+   答题记录保存在手机本地，与是否联网无关。
+
+可以用的免费静态空间：GitHub Pages、Gitee Pages、Cloudflare Pages、Netlify、Vercel，
+或腾讯云/阿里云的对象存储静态网站功能。
